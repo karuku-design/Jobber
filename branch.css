@@ -1,0 +1,96 @@
+.colA{
+    float: left;
+    width: 35%;
+    padding: 15px;
+}
+.gridd {
+  display:grid;
+  grid-gap: 15px;
+  grid-template-columns: auto auto ;
+  padding: 10px;
+  width:65%;
+  border-radius: 10px;
+  height: 750px;
+
+}
+
+.gridt {
+  transition-duration: box-shadow .3s;
+  border-radius: 10px;
+  padding: 20px;
+  font-size: 30px;
+  text-align: center;
+  background-color: #fff;
+
+}
+.gridt:hover{
+ box-shadow: 0 0 13px rgba(33,33,33,.2); 
+}
+.gridt img{
+  border-radius: 100px;
+  height: 100px;
+  width: 100px;
+}
+.colA h2{
+  border-bottom: solid;
+  border-bottom:10%;
+}
+
+.cancelbtn{
+  border:2px solid;
+  border-radius: 14px;
+  width: 20%;
+}
+.signupbtn{
+  border:2px solid;
+  border-radius: 14px;
+  width: 20%;
+  float: right;
+}
+.signinbtn{
+
+  border:2px solid;
+  border-radius: 14px;
+  width: 20%;
+  float: right;
+
+}
+
+
+.input{
+  border-radius: 5px;
+}
+/*formatting input validation errors*/
+.error {
+   background: #F2DEDE;
+   color: #A94442;
+   padding: 10px;
+   width: 90%;
+   border-radius: 5px;
+   text-align: center;
+   margin: 20px auto;
+}
+
+.success {
+   background: #D4EDDA;
+   color: #40754C;
+   padding: 10px;
+   width: 95%;
+   border-radius: 5px;
+   margin: 20px auto;
+}
+
+
+/*Fancy text*/
+.fancy{
+  width: 100%;
+  height: 15vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 14px;
+   }
+  
+    
+ /*profile form */  
+      
